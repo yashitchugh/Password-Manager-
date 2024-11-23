@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+}
+nav{
+    background-color: rgb(217, 153, 89);
+    font-size: 2rem;
+    font-weight: 900;
+    padding: 12px 3px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    margin: 0 23px;
+    cursor: pointer;
+}
+ul{
+    display: flex;
+    margin: 0 23px;
+    align-items: center;
+    
+}
+ul >li {
+    list-style: none;
+    margin: 0 13px;
+    cursor: pointer;
+}
+
+ul > li:hover{
+   color: white;
+}
+
+table, td, tr{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 13px;
+} 
+.container{
+    max-width: 80vw;
+    margin: 23px auto;
+}
+
+h1,h2,h3{
+    margin: 23px 0;
+}
+
+.btn{
+    padding: 8px 17px;
+    background: black;
+    color: white;
+    font-weight: 900;
+    border: 2px solid gray;
+    border-radius: 8px;
+    margin: 25px 0;
+    cursor:pointer;
+}
+
+.btnsm{
+    
+    background: black;
+    color: white;
+    font-weight: 900;
+    border: 2px solid gray;
+    border-radius: 8px;
+    
+    cursor:pointer;
+
+}
+
+img{
+    cursor: pointer;
+}
+
+.alert{
+    display: none;
+    
+}

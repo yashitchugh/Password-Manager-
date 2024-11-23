@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PassX - Your Personal Password Manager</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <nav>
+        <div class="logo">Pass X</div>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Password Manager</h1>
+        <p>Welcome to [Your Password Manager Name]!
+            Your security and peace of mind are our top priorities. We’ve designed this tool to help you manage your passwords easily and securely. Whether you're here to store, generate, or access your passwords, you're in the right place. Stay safe, stay organized, and feel free to explore all the features we've built to protect your online world.</p>
+        <h2>Your Password</h2>
+        <p class ="alert">Your password has been copied</p>
+        <table>
+            <tr>
+              <th> Website</th>
+              <th> Username</th>
+              <th>Password</th>
+              <th>Delete</th>
+            </tr>
+            <!-- <tr> -->
+              <!-- <td>CWH</td> -->
+              <!-- <td>webdevYashit</td>
+              <td>webdevYashit</td>
+              <td>webdevYashit</td> 
+            </tr>
+            <tr>
+                <td>AWH</td>
+                <td>webdevMansi</td>
+                <td>webdevMansi</td>
+                <td>webdevMansi</td>
+              </tr>
+              <tr> -->
+                 <!-- <td>IWH</td>
+                <td>webdevKiran</td>
+                <td>webdevKiran</td>
+                <td>webdevKiran</td>
+              </tr>  --> 
+          </table>
+        <h2>Add a Password</h2>
+        <form action="/submit" method="post">
+            <!-- Text input for username -->
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <br><br>
+
+             <!-- Text input for Website -->
+             <label for="website">Website : </label>
+             <input type="text" id="website" name="website" required>
+             <br><br>
+         
+        
+            <!-- Password input -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+         <!-- Submit button -->
+             <button  class="btn" type="submit"  >Submit</button>
+          </form>
+        
+    </div>
+   <script src="script.js"></script>
+</body>
+</html>
