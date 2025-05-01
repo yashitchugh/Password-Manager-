@@ -15,7 +15,7 @@
 ## Installation
 To run a website in VS code, we need to install Live Server
 
-[live Server](https://github.com/yashitchugh/Password-Manager-/tree/main?tab=readme-ov-file#installation)
+[live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
 ## Contributors
 We welcome contributions from everyone! Whether you're fixing bugs, improving documentation, suggesting new features, or writing c
