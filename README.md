@@ -15,7 +15,7 @@
 ## Installation
 To run a website in VS code, we need to install Live Server
 
-[Live Server](vscode:extension/ritwickdey.LiveServer)
+vscode:extension/ritwickdey.LiveServer
 
 ## Contributors
 We welcome contributions from everyone! Whether you're fixing bugs, improving documentation, suggesting new features, or writing c
